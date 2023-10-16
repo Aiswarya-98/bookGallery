@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: rgb(33, 134, 134);
+  width: 100%;
+  height: 50px;
+}
+
+header h2 {
+  color: rgb(36, 19, 52);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 10px;
+  text-align: center;
+}
+
+h2:hover {
+  color: blanchedalmond;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+button:hover {
+  background-color: antiquewhite;
+}
+
+.row {
+  background-color: rgb(27, 219, 213);
+  width: 100%;
+  height: 520px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.col {
+  background-color: darkcyan;
+  width: 250px;
+  height: 390px;
+  margin-left: 10px;
+}
+
+img {
+  height: 200px;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+h4,
+h5 {
+  text-align: center;
+  color: beige;
+}
+
+.btn {
+  color: rgb(62, 62, 122);
+  background-color: rgb(144, 155, 209);
+  padding: 5px;
+  margin-left: 90px;
+  border-radius: 15%;
+}
+
+footer,
+p {
+  background-color: rgb(33, 134, 134);
+  width: 100%;
+  height: 50px;
+  color: blanchedalmond;
+  text-align: center;
+}
+
+h3 {
+  color: rgb(11, 50, 88);
+  text-align: center;
+}
+
+.banner {
+  background-image: url("https://www.motocms.com/blog/wp-content/uploads/2017/06/how-to-make-a-book-website-main.jpg");
+
+  width: 100%;
+  height: 400px;
+}
